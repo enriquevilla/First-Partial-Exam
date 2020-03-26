@@ -89,6 +89,7 @@ fieldset legend{
 .seccionComments{
     border: 1px dashed #6278B0;
     padding: 10px;
+    text-align: start;
 }
 .comName{
     text-align: left;
@@ -145,10 +146,12 @@ input[type=submit]{
 
 }
 #commentsTitle{
-    font-size: 20px;
+    font-size: 16px;
     font-family: Verdana, sans-serif;
     color: #6278B0;
     overflow: hidden;
+    margin: 0;
+    text-align: start;
 }
 #content-tab3 {
     text-align: center;
@@ -157,9 +160,8 @@ input[type=submit]{
     text-align: center;
 }
 #nameP {
-    font-size: 50px;
-    color: #12bf88;
-    margin: 10px;
+    font-size: 30px;
+    color: #12bf88;    
 }
 #usernameP {
     font-size: 30px;
@@ -188,4 +190,12 @@ input[type=submit]{
 label{
     display: block;
     margin: 15px;
+}
+.deleteButton {
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    height: 26px;
+    margin-right: auto;
 }
