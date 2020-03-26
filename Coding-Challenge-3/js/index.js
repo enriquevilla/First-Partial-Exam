@@ -22,7 +22,7 @@ function submitEvent() {
             comment.value = "";
         }
     });
-    document.addEventListener("click", (event) => {
+    document.querySelector(".seccionComments").addEventListener("click", (event) => {
         if (event.target.matches(".deleteButton")) {
             event.target.parentNode.parentNode.remove();
         }
